@@ -17,3 +17,7 @@ end
 def divide(divi_1, divi_2)
     return divi_1 / divi_2
 end
+
+def length_of_string(string)
+    return string.length
+end
