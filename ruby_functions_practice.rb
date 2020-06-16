@@ -13,3 +13,7 @@ end
 def multiply(mult_1, mult_2)
     return mult_1 * mult_2
 end
+
+def divide(divi_1, divi_2)
+    return divi_1 / divi_2
+end
