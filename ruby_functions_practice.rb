@@ -32,14 +32,27 @@ end
 
 def number_to_full_month_name(month)
     case month
-when 1
-    "January"
-when 3
-    "March"
-when 9
-    "September"
-else
-    "invalid"
+    when 1
+        "January"
+    when 3
+        "March"
+    when 9
+        "September"
+    else
+        "invalid"
+    end
 end
+
+def number_to_short_month_name(short_month)
+    case short_month
+    when 1
+        "Jan"
+    when 4
+        "Apr"
+    when 10
+        "Oct"
+    else
+        "invalid"
+    end
 end
 
