@@ -61,7 +61,7 @@ def volume_of_cube(side_length)
 end
 
 def volume_of_sphere(radius)
-    return (4.0 / 3.0) * 3.14 * (radius * radius * radius)
+    return (4.0 / 3.0) * Math::PI * (radius * radius * radius)
 end
 
 def fahrenheit_to_celsius(temperature)
